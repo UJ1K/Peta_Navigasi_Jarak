@@ -15,7 +15,7 @@ const MenuPinggirKonten = () => {
           fontSize: "1.5rem",
         }}
       >
-        Bandung
+        Surakarta
       </span>
       <span
         css={{
@@ -23,7 +23,7 @@ const MenuPinggirKonten = () => {
           color: "#666666",
         }}
       >
-        Jawa Barat
+        Jawa Tengah
       </span>
     </div>
   )
