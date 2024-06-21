@@ -53,7 +53,7 @@ const MenuUser = () => {
       </span>
       <span
         css={{
-          fontSize: "0.70rem",
+          fontSize: "0.75rem",
           color: "#999999",
         }}
       >
