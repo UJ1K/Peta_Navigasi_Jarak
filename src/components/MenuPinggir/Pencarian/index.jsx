@@ -7,7 +7,7 @@ const MenuPinggirPencarian = () => {
     <div
       css={{
         width: `100%`, 
-        background: "https://asset.kompas.com/crops/Wz555Tw9E7BzYVE3_UgSwYYk4KM=/0x0:780x520/750x500/data/photo/2019/09/16/5d7f65d83d0b9.jpg",
+        background: url('https://asset.kompas.com/crops/Wz555Tw9E7BzYVE3_UgSwYYk4KM=/0x0:780x520/750x500/data/photo/2019/09/16/5d7f65d83d0b9.jpg'),
         height: 240,
         padding: 8,
       }}
