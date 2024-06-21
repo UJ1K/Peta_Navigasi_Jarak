@@ -16,6 +16,9 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v3
+        
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v4.1.7
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
@@ -24,7 +27,7 @@ jobs:
         run: npm run build
         
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.1.7
         with:
           name: production-files
           path: ./build
@@ -37,12 +40,12 @@ jobs:
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: production-files
           path: ./build
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4.1.7
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
