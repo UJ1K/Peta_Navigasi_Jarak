@@ -1,8 +1,16 @@
-# React + Vite
+# Website Peta Interaktif Surakarta: Penerapan Library Openlayers dan Framework React.JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Secara sederhana, website ini adalah peta interaktif dengan mengedepankan manfaat dan kemudahan untuk pengguna. UI yang digunakan adalah cukup umum bagi pengguna-pengguna awam yang setiap harinya membuka google.maps.  
 
-Currently, two official plugins are available:
+Tujuan pembuatan website ini adalah: 
+    1. Penerapan berbasis Web GIS.
+    2. Aplikasi konseptual Framework dan Library Website.
+    3. Penerapan Web GIS yang berorientasi pada kemudahan pengguna.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Manfaat:
+    1. Pengguna yang berlokasi di Surakarta mendapatkan informasi Geospasial secara akurat.
+    2. Kemudahan pengguna dalam membaca peta.
+    3. Distribusi spasial diketahui.
+
+
+# Terima Kasih
