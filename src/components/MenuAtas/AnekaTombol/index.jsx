@@ -7,7 +7,7 @@ import konfigurasiAtom from "../../../konfigurasi-atom"
 
 const menu = [
   {
-    judul: "Laptopan",
+    judul: "Tempat Nugas",
     icon: <FaLaptopHouse />,
   },
   {
@@ -23,7 +23,7 @@ const menu = [
     icon: <FaFish />,
   },
   {
-    judul: "Alam",
+    judul: "Wisata",
     icon: <FaMountain />,
   },
   {
