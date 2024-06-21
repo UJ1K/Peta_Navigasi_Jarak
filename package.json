@@ -1,5 +1,5 @@
 {
-  homepage: "https://uj1k.github.io/test-mapp/"
+  "homepage": "https://uj1k.github.io/test-mapp/",
   "name": "ol-react-mapexplorer",
   "version": "0.1.0",
   "private": false,
