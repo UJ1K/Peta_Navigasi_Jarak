@@ -7,7 +7,7 @@ const MenuPinggirPencarian = () => {
     <div
       css={{
         width: `100%`, 
-        background: "yellow",
+        background: "lightblue",
         height: 240,
         padding: 8,
       }}
@@ -27,7 +27,7 @@ const MenuPinggirPencarian = () => {
       >
         <FaBars />
         <input
-          placeholder="Cari tempat . . ."
+          placeholder="Cari Lokasi . . ."
           css={{
             flexGrow: 1,
             border: `none`,
