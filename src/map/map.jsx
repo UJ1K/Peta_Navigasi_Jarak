@@ -6,6 +6,6 @@ export const map = new Map({
   view: new View({
     projection: "EPSG:4326",
     center: [110.8167, -7.5666],
-    zoom: 10,
+    zoom: 13,
   })
 })
