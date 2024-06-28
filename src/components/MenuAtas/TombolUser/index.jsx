@@ -1,36 +1,80 @@
 /** @jsxImportSource @emotion/react */
 
 import { useAtom } from "jotai"
+import { FaBed, FaBook, FaFish, FaLaptopHouse, FaMoneyCheckAlt, FaMountain } from "react-icons/fa"
+// import { FaLaptopHouse } from "react-icons/fa"
+
 import konfigurasiAtom from "../../../konfigurasi-atom"
 
-const MenuAtasTombolUser = () => {
+const menu = [
+  {
+    judul: "Tempat Nugas",
+    icon: <FaLaptopHouse />,
+  },
+  {
+    judul: "Perpus",
+    icon: <FaBook />,
+  },
+  {
+    judul: "Hotel",
+    icon: <FaBed />,
+  },
+  {
+    judul: "Makan",
+    icon: <FaFish />,
+  },
+  {
+    judul: "Wisata",
+    icon: <FaMountain />,
+  },
+  {
+    judul: "ATM",
+    icon: <FaMoneyCheckAlt />,
+  },
+]
 
-  const [konfigurasi, setKonfigurasi] = useAtom(konfigurasiAtom)
+const MenuAtasAnekaTombol = () => {
+
+  const [konfigurasi] = useAtom(konfigurasiAtom)
 
   return (
     <div
-      onClick={() => {
-        setKonfigurasi({...konfigurasi, bukaMenuUser: !konfigurasi.bukaMenuUser})
-      }}
+      className="MenuAtasAnekaTombol"
       css={{
-        borderRadius: 16,
-        width: 32,
-        height: 32,
-        background: "#02808f",
-        fontSize: `1rem`,
         display: "flex",
         flexDirection: "row",
-        justifyContent: "center",
-        alignItems: "center",
-        color: "#ffffff",
-        ":hover": {
-          cursor: "pointer",
-        },
+        gap: 8,
+        paddingLeft: (konfigurasi.bukaMenuPinggir ? 360 : 0),
+        transition: ".4s",
+        flexGrow: 1,
       }}
     >
-      I 
+    {menu.map((tiapMenu, urutan) => (
+      <div
+        className="MenuAtasAnekaTombol_menu"
+        css={{
+          borderRadius: 16,
+          background: "#fafafa",
+          display: "flex",
+          flexDirection: "row",
+          gap: 4,
+          padding: 4,
+          paddingLeft: 8,
+          paddingRight: 8,
+          fontSize: `0.85rem`,
+          boxShadow: `rgba(0, 0, 0, 0.24) 0px 3px 8px`,
+          ":hover": {
+            cursor: "pointer",
+            background: "#eaeaea",
+          },
+        }}
+      > 
+        {tiapMenu.icon}
+        {tiapMenu.judul}
+      </div>
+    ))}
     </div>
   )
 }
 
-export default MenuAtasTombolUser 
+export default MenuAtasAnekaTombol 
