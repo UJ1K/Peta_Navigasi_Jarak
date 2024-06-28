@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Peta_Navigasi_Jarak/static/css/main.49989e48.css",
-    "main.js": "/Peta_Navigasi_Jarak/static/js/main.567a601c.js",
+    "main.js": "/Peta_Navigasi_Jarak/static/js/main.5042f3b8.js",
     "static/js/453.9520fe7a.chunk.js": "/Peta_Navigasi_Jarak/static/js/453.9520fe7a.chunk.js",
     "index.html": "/Peta_Navigasi_Jarak/index.html",
     "main.49989e48.css.map": "/Peta_Navigasi_Jarak/static/css/main.49989e48.css.map",
-    "main.567a601c.js.map": "/Peta_Navigasi_Jarak/static/js/main.567a601c.js.map",
+    "main.5042f3b8.js.map": "/Peta_Navigasi_Jarak/static/js/main.5042f3b8.js.map",
     "453.9520fe7a.chunk.js.map": "/Peta_Navigasi_Jarak/static/js/453.9520fe7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49989e48.css",
-    "static/js/main.567a601c.js"
+    "static/js/main.5042f3b8.js"
   ]
 }
