@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-mapp/static/css/main.49989e48.css",
-    "main.js": "/test-mapp/static/js/main.bb7d0f76.js",
-    "static/js/453.9520fe7a.chunk.js": "/test-mapp/static/js/453.9520fe7a.chunk.js",
-    "index.html": "/test-mapp/index.html",
-    "main.49989e48.css.map": "/test-mapp/static/css/main.49989e48.css.map",
-    "main.bb7d0f76.js.map": "/test-mapp/static/js/main.bb7d0f76.js.map",
-    "453.9520fe7a.chunk.js.map": "/test-mapp/static/js/453.9520fe7a.chunk.js.map"
+    "main.css": "/Peta_Navigasi_Jarak/static/css/main.49989e48.css",
+    "main.js": "/Peta_Navigasi_Jarak/static/js/main.0e6128fc.js",
+    "static/js/453.9520fe7a.chunk.js": "/Peta_Navigasi_Jarak/static/js/453.9520fe7a.chunk.js",
+    "index.html": "/Peta_Navigasi_Jarak/index.html",
+    "main.49989e48.css.map": "/Peta_Navigasi_Jarak/static/css/main.49989e48.css.map",
+    "main.0e6128fc.js.map": "/Peta_Navigasi_Jarak/static/js/main.0e6128fc.js.map",
+    "453.9520fe7a.chunk.js.map": "/Peta_Navigasi_Jarak/static/js/453.9520fe7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49989e48.css",
-    "static/js/main.bb7d0f76.js"
+    "static/js/main.0e6128fc.js"
   ]
 }
