@@ -2,7 +2,7 @@
 
 const MenuPinggirKonten = () => {
   return (
-    <div
+   <div
       css={{
         padding: 16,
         display: "flex",
@@ -15,7 +15,7 @@ const MenuPinggirKonten = () => {
           fontSize: "1.5rem",
         }}
       >
-        Surakarta
+        Yogyakarta
       </span>
       <span
         css={{
@@ -23,7 +23,7 @@ const MenuPinggirKonten = () => {
           color: "#666666",
         }}
       >
-        Jawa Tengah
+        Daerah Istimewa Yogyakarta
       </span>
     </div>
   )
