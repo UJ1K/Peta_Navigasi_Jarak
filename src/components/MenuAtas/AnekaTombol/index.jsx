@@ -2,6 +2,7 @@
 
 import { useAtom } from "jotai"
 import { FaBed, FaBook, FaFish, FaLaptopHouse, FaMoneyCheckAlt, FaMountain } from "react-icons/fa"
+// import { FaLaptopHouse } from "react-icons/fa"
 
 import konfigurasiAtom from "../../../konfigurasi-atom"
 
@@ -15,7 +16,7 @@ const menu = [
     icon: <FaBook />,
   },
   {
-    judul: "Tidur",
+    judul: "Hotel",
     icon: <FaBed />,
   },
   {
@@ -67,7 +68,7 @@ const MenuAtasAnekaTombol = () => {
             background: "#eaeaea",
           },
         }}
-      >
+      > 
         {tiapMenu.icon}
         {tiapMenu.judul}
       </div>
