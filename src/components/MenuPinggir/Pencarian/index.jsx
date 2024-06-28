@@ -6,7 +6,7 @@ const MenuPinggirPencarian = () => {
   return (
     <div
       css={{
-        backgroundImage: `url('https://asset.kompas.com/crops/Wz555Tw9E7BzYVE3_UgSwYYk4KM=/0x0:780x520/750x500/data/photo/2019/09/16/5d7f65d83d0b9.jpg')`,
+        backgroundImage: `url('https://asset.kompas.com/crops/F5LjbmLcmn0giHEPgGYRVEh7ShU=/162x113:838x563/750x500/data/photo/2023/02/02/63db4bb5c8574.jpg')`,
         height: 240,
         padding: 8,
         backgroundSize: 'cover', // Agar gambar menutupi seluruh area div
